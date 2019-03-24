@@ -1,0 +1,16 @@
+CREATE DATABASE products;
+
+USE products;
+
+CREATE TABLE Product (
+    id int NOT NULL AUTO_INCREMENT,
+    productid int,
+    brand varchar(255),
+    price float,
+    date datetime,
+    PRIMARY KEY (id) 
+);
+
+
+Se precisar recriar o banco:
+DROP TABLE products.product;
